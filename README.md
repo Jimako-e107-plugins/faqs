@@ -1,0 +1,2 @@
+# faqs
+Core faqs plugin
