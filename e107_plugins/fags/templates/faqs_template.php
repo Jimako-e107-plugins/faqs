@@ -10,10 +10,12 @@
 
 $FAQS_TEMPLATE['start']	= "
 <div class='faq-start'>{FAQ_SUBMIT_QUESTION: expand=1}
-{FAQ_SUBMIT_QUESTION_LIST}
+	{FAQ_SUBMIT_QUESTION_LIST}
+		<div id='faqs-container'> 
 ";
 
 $FAQS_TEMPLATE['end']	= "
+		</div>
 	<div class='faq-submit-question'></div>
 </div>
 ";

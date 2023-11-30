@@ -276,11 +276,11 @@ class faq
 		$text = $tp->parseTemplate($template['start'], true, $this->sc); // header
 
 		
-		$text .= "<div id='faqs-container'>";
+		//$text .= "<div id='faqs-container'>";
 		
 		$text .= $this->view_all_query($srch);
 		
-		$text .= "</div>";
+		//$text .= "</div>";
 	
 		$text .= $tp->parseTemplate($template['end'], true, $this->sc); // footer
 
